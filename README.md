@@ -5,6 +5,9 @@ Documentation for MyBuddy Android App
 Overview
 MyBuddy is an Android application that collects student data and sends it to a remote Google Apps Script web app to store the information. The app generates a random string representing a unique identifier for each entry. The app stores the unique identifier, date, and time in SharedPreferences and displays the unique identifier on the screen.
 
+data is recorded in this Gsheet
+https://docs.google.com/spreadsheets/d/19y4QUVtU8OkfY81NPjRGLYLn56QnCWTu3JstBHxs_Vc/edit#gid=0
+
 MainActivity Class
 The MainActivity class is the main activity for the application. It extends AppCompatActivity and contains the core functionality for collecting and sending students' data to the remote server.
 
